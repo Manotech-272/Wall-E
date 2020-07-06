@@ -78,7 +78,7 @@ namespace WallE
 
             foreach (string sequence in sequences)
             {
-                if (sequence.Length > 1000000000)
+                if (sequence.Length > 5000000)
                 {
                     Console.WriteLine("At least one of the sequences you've entered has more than 10^10 characters.");
                     return false;
